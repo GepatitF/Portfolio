@@ -1036,6 +1036,33 @@ body{
     left: 0;
     z-index: 1000;
     
+    &__close {
+        
+        position: absolute;
+        
+        top: 14px;
+        right: 14px;
+        
+        z-index: 1;
+        
+        width: 34px;
+        height: 39px;
+        
+        padding: 0;
+        cursor: pointer;    
+        
+        background: none;
+        border: 0;
+        
+        transition: transform .2s linear;
+        
+        &:hover {
+            
+            transform: rotate(90deg);
+            
+        }
+    }
+    
 }
 
 .modal__dialog {
@@ -1045,6 +1072,8 @@ body{
     margin: auto;
     
     background-color: white;
+    
+    position: relative;
     
 }
 
@@ -1070,7 +1099,7 @@ body{
         left: 50%;
         z-index: 1;
         
-        transform: translate3d(-50%, -50%, 0)
+        transform: translate3d(-50%, -50%, 0);
         
     }
     
@@ -1079,6 +1108,8 @@ body{
         width: 35%;
         
         padding: 50px 99px 168px 26px;
+        
+        position: relative;
         
     }
     
@@ -1151,6 +1182,20 @@ body{
         line-height: 24px;
             
         color: gray;
+        
+    }
+    
+    &_footer{
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1.8rem 1rem;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
         
     }
     

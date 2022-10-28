@@ -761,12 +761,33 @@ body.no-scroll {
   left: 0;
   z-index: 1000;
 }
+.modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1;
+  width: 34px;
+  height: 39px;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+.modal__close:hover {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
 
 .modal__dialog {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   background-color: white;
+  position: relative;
 }
 
 .modal__work {
@@ -790,6 +811,7 @@ body.no-scroll {
 .modal__work_content {
   width: 35%;
   padding: 50px 99px 168px 26px;
+  position: relative;
 }
 .modal__work_title {
   margin-bottom: 20px;
@@ -829,4 +851,18 @@ body.no-scroll {
   font-weight: 300;
   line-height: 24px;
   color: gray;
+}
+.modal__work_footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.8rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
