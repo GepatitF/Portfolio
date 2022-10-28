@@ -791,9 +791,7 @@ body.no-scroll {
 }
 
 .modal__work {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 .modal__work_preview {
   overflow: hidden;
@@ -874,4 +872,126 @@ body.no-scroll {
   border: 0;
   padding: 0;
   outline: none;
+}
+.modal__content {
+  padding: 75px 15px;
+}
+
+.modal__title {
+  margin-bottom: 55px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2a2c2b;
+  text-align: center;
+}
+
+.thin {
+  min-width: 145px;
+  font-size: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.timeline {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 65px auto;
+  width: 100%;
+  max-width: 768px;
+}
+.timeline::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #2a2c2b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.timeline_col {
+  width: 50%;
+}
+.timeline_title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #2a2c2b;
+}
+.timeline__item {
+  margin-bottom: 40px;
+}
+.timeline__date {
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #2a2c2b;
+  margin-bottom: 13px;
+}
+.timeline__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2c2b;
+  margin-bottom: 5px;
+}
+.timeline__prof {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-style: italic;
+  color: #2a2c2b;
+}
+.timeline__text {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: gray;
+}
+.timeline:last-child {
+  margin-bottom: 0;
+}
+
+.left {
+  padding-right: 45px;
+}
+
+.right {
+  padding-left: 45px;
+}
+
+.progress__bar_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+.progress__bar_right {
+  padding-left: 18px;
+}
+.progress__bar_title {
+  font-size: 14px;
+  font-weight: 300;
+}
+.progress__bar_bar {
+  width: 139px;
+  height: 6px;
+  background-color: #EFEFEF;
+}
+.progress__bar_progress {
+  height: 100%;
+  background-color: #2a2c2b;
+  -webkit-transition: width 0.2s linear;
+  transition: width 0.2s linear;
 }

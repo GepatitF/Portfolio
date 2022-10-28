@@ -1020,6 +1020,7 @@ body{
 
 // Modals 
 
+
 .modal {
     
     display: flex;
@@ -1078,8 +1079,8 @@ body{
 }
 
 .modal__work {
-    
-    display: flex;
+    display: none;  
+    //display: flex;
     
     &_preview {
         
@@ -1219,8 +1220,205 @@ body{
     
 }
 
+.modal__content {
+    
+    padding: 75px 15px;
+    
+}
 
+.modal__title {
+    
+    margin-bottom: 55px;
+    
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    color: #2a2c2b;
+    
+    text-align: center;
+    
+}
 
+.thin {
+    
+    min-width: 145px;
+    
+    font-size: 12px;
+    
+}
 
+.text-center {
+    
+    text-align: center;
+    
+}
 
+.text-right {
+    
+    text-align: right;
+    
+}
 
+.timeline {
+    
+    position: relative;
+    
+    display: flex;
+    margin: 65px auto;
+    
+    width: 100%;
+    max-width: 768px; 
+    
+    &::before {
+        
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        
+        background-color: #2a2c2b;
+        
+        position: absolute;
+        
+        top: 0;
+        left: 50%;
+        
+    }
+    
+    &_col {
+        
+        width: 50%;
+        
+    }
+    
+    &_title {
+        
+        margin-bottom: 30px;
+        
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        
+        color: #2a2c2b;
+        
+    }
+    
+    &__item {
+        
+        margin-bottom: 40px;
+        
+    }
+    
+    &__date {
+        
+        display: block;
+        
+        font-size: 14px;
+        text-decoration: underline;
+        
+        color: #2a2c2b;
+        
+        margin-bottom: 13px;
+        
+    }
+    
+    &__subtitle {
+        
+        font-size: 16px;
+        font-weight: 700;
+        
+        color: #2a2c2b;
+        
+        margin-bottom: 5px;
+        
+    }
+    
+    &__prof {
+        
+        margin-bottom: 5px;
+        
+        font-size: 14px;
+        font-style: italic;
+        
+        color: #2a2c2b;
+        
+    }
+    
+    &__text {
+        
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        
+        color: gray;
+        
+    }
+    
+    &:last-child {
+        
+        margin-bottom: 0;
+        
+    }
+}
+
+.left {
+    
+    padding-right: 45px; 
+    
+}
+
+.right {
+    
+    padding-left: 45px;
+    
+}
+
+.progress__bar {
+    
+    &_item {
+        
+        display: flex;
+        align-items: center;
+        
+        margin-bottom: 5px;
+    }
+    
+    &_left {
+        
+        
+        
+    }
+    
+    &_right {
+        
+        padding-left: 18px;
+        
+    }
+    
+    &_title {
+        
+        font-size: 14px;
+        font-weight: 300;
+        
+    }
+    
+    &_bar {
+        
+        width: 139px;
+        height: 6px;
+        
+        background-color: #EFEFEF;
+        
+    }
+    
+    &_progress {
+        
+        height: 100%;
+        
+        background-color: #2a2c2b;
+        
+        transition: width .2s linear;
+        
+    }
+}
