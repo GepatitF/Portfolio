@@ -1076,11 +1076,12 @@ body{
     
     position: relative;
     
+
 }
 
 .modal__work {
-    display: none;  
-    //display: flex;
+    
+    display: flex;
     
     &_preview {
         
@@ -1235,8 +1236,6 @@ body{
     font-weight: 700;
     
     color: #2a2c2b;
-    
-    text-align: center;
     
 }
 
@@ -1421,4 +1420,177 @@ body{
         transition: width .2s linear;
         
     }
+}
+
+.sm {
+    
+   max-width: 900px;
+    
+}
+
+.text-left {
+    
+    text-align: left;
+    
+}
+
+.contact {
+    
+    display: flex;
+    
+    &_left {
+        
+        padding: 30px;
+        
+        width: 47%;
+        
+    }
+    
+    &_right {
+        
+        width: 53%;
+        
+        background: #2a2c2b url(https://via.placeholder.com/477x700/808080/808080?Text=Down.com) no-repeat center;
+        
+    }
+}
+
+.mb-0 {
+    
+    margin-bottom: 20px;
+    
+}
+
+.contact__info {
+    
+    margin: 30px 0 45px;
+    padding: 0;
+    
+    list-style: none;
+    
+    font-size: 14px;
+    font-weight: 300;
+    
+    color: #2a2c2b;
+    
+    &_item {
+        
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+        &:last-child {
+            
+            margin-bottom: 0;
+            
+        }
+        
+    }
+    
+    &_icon {
+        
+       margin-right: 15px; 
+        
+    }
+    
+}
+
+.modal__subtitle {
+    
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    
+    color: #2a2c2b;
+    
+}
+
+.label {
+    
+    display: inline-block;
+    
+    font-size: 14px;
+    font-weight: 700;
+    
+    color: #2a2c2b;
+    
+    margin-bottom: 9px;
+    
+}
+
+.input {
+    
+    margin-bottom: 10px;
+    
+    display: block;
+    width: 100%;
+    
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    
+    line-height: 1.2;
+    
+    padding: 18px 21px;
+    
+    border: 1px solid gray;
+    border-radius: 35px;
+    
+    transition: border-color .2s linear;
+    
+    &:focus {
+        
+        outline: none;
+        
+        border-color: darkblue;
+    }
+    
+}
+
+.form {
+    
+    &__group {
+        
+        
+        
+    }
+    
+}
+
+.textarea {
+    
+    display: block;
+    width: 100%;
+    
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    
+    line-height: 1.2;
+    
+    padding: 18px 21px;
+    
+    border: 1px solid gray;
+    border-radius: 35px;
+    
+    transition: border-color .2s linear;
+    
+    height: 200px;
+    resize: none;
+    
+    &:focus {
+        
+        outline: none;
+        
+        border-color: darkblue;
+    }
+    
+    
+    
+}
+
+.mt {
+    
+    margin-top: 30px;
+    
 }
