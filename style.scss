@@ -641,4 +641,145 @@ body{
     
 }
 
+// Reviews
+
+.reviews {
+    
+    position: relative;
+    
+    padding: 47px 0;
+    
+    background: url(images/reviews-bg.png) center no-repeat;
+    background-color: #332F30;
+}
+
+.reviews__inner {
+    
+    margin: 0 auto;
+    
+    width: 100%;
+    max-width: 830px;
+    
+}
+
+.reviews__theme {}
+
+.reviews__text {
+    
+    text-align: center;
+    font-size: 14px;
+    
+    line-height: 32px;
+    
+    color: white;   
+}
+
+.reviews__author {
+    
+    position: absolute;
+    
+    margin-top: -51px;
+    
+    width: 100%;
+    
+    top: 100%;
+    left: 0;
+    
+    z-index: 1;
+    
+    text-align: center;
+    
+}
+
+.reviews__avatar {}
+
+.reviews__photo {
+    
+    display: block;
+    
+    margin: 0 auto;
+    margin-bottom: 9px;
+    
+    width: 103px;
+    height: 103px;
+    
+    border-radius: 50px;
+    border: 4px solid white;
+    
+}
+
+.reviews__name {
+    
+    margin-bottom: 5px;
+    
+    font-size: 16px;
+    font-weight: 700;
+    
+    color: #2a2c2b;
+    
+}
+
+.reviews__prof {
+    
+    margin-bottom: 5px;
+    
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    
+    color: #332F30;
+    
+}
+
+.reviews__rating {}
+
+.rating__star {
+    
+    width: 13px;
+    height: 13px;
+    
+}
+
+.unaktive {
+    
+    opacity: 0.5;
+    
+}
+
+// Read Me
+
+.readme {
+    
+    margin-top: 200px;
+    
+}
+
+.readme__column {}
+
+.readme__header {
+    
+    text-align: center;
+    
+}
+
+.readme__title {}
+
+.readme__subtitle {}
+
+.readme__content {}
+
+.readme__image {}
+
+.me__image {}
+
+.me__title {}
+
+.me__cat {}
+
+.me__text {}
+
+.see__more {}
+
+
+
 
