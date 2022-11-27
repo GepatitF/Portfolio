@@ -44,6 +44,12 @@ body{
     background-color: #fff;
     
     color: #2a2c2b;
+    
+    &.no-scroll {
+        
+        overflow: hidden;
+        
+    }
 }
 
 // Container
@@ -1010,6 +1016,146 @@ body{
     text-decoration: underline;
     
 }
+
+
+// Modals 
+
+.modal {
+    
+    display: flex;
+    
+    padding: 0 15px;
+    
+    background-color: rgba(darkblue, 80%);
+    
+    width: 100%;
+    height: 100%;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.modal__dialog {
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+    background-color: white;
+    
+}
+
+.modal__work {
+    
+    display: flex;
+    
+    &_preview {
+        
+        overflow: hidden;
+        
+        position: relative;
+     
+        width: 65%;
+        
+    }
+    
+    &_image {
+        
+        position: absolute;
+        
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        
+        transform: translate3d(-50%, -50%, 0)
+        
+    }
+    
+    &_content {
+        
+        width: 35%;
+        
+        padding: 50px 99px 168px 26px;
+        
+    }
+    
+    &_title {
+        
+        margin-bottom: 20px;
+        
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 700;
+        
+        color: #2a2c2b;
+        
+    }
+    
+    &_info {
+        
+        font-size: 16px;
+        font-weight: 300;
+        
+        color: gray;
+        
+    }
+    
+    &_info_divider {
+        
+        margin: 0 15px;
+        
+    }
+    
+    &_header {
+        
+        margin-bottom: 33px;
+        
+    }
+    
+    &_client {
+        
+        margin-bottom: 20px;
+        
+    }
+    
+    &_client-title {
+        
+        margin-bottom: 5px;
+        
+        font-size: 17px;
+        font-weight: 700;
+        
+        color: #2a2c2b;
+        
+        
+    }
+    
+    &_client-company {
+        
+        font-size: 15px;
+        font-style: italic;
+        
+        color: gray;
+        
+    }
+    
+    &_text {
+        
+        margin-bottom: 130px;
+        
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 24px;
+            
+        color: gray;
+        
+    }
+    
+}
+
 
 
 
