@@ -1023,7 +1023,11 @@ body{
 
 .modal {
     
+<<<<<<< HEAD
     display: none;
+=======
+    display: flex;
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
     
     padding: 0 15px;
     
@@ -1066,10 +1070,13 @@ body{
     
 }
 
+<<<<<<< HEAD
 .show {
     display: flex;
 }
 
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
 .modal__dialog {
     
     width: 100%;
@@ -1079,9 +1086,12 @@ body{
     background-color: white;
     
     position: relative;
+<<<<<<< HEAD
 
     transform: rotateX(90.1deg);
     transition: transform .2s linear;
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
     
 
 }
@@ -1600,8 +1610,11 @@ body{
     
     margin-top: 30px;
     
+<<<<<<< HEAD
 }
 
 .hide {
     display: none;
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
 }

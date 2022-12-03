@@ -749,7 +749,13 @@ body.no-scroll {
 }
 
 .modal {
+<<<<<<< HEAD
   display: none;
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
   padding: 0 15px;
   background-color: rgba(0, 0, 139, 0.8);
   width: 100%;
@@ -780,24 +786,30 @@ body.no-scroll {
           transform: rotate(90deg);
 }
 
+<<<<<<< HEAD
 .show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
 .modal__dialog {
   width: 100%;
   max-width: 1200px;
   margin: auto;
   background-color: white;
   position: relative;
+<<<<<<< HEAD
   -webkit-transform: rotateX(90.1deg);
           transform: rotateX(90.1deg);
   -webkit-transition: -webkit-transform 0.2s linear;
   transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
 }
 
 .modal__work {
@@ -1113,8 +1125,11 @@ body.no-scroll {
 
 .mt {
   margin-top: 30px;
+<<<<<<< HEAD
 }
 
 .hide {
   display: none;
+=======
+>>>>>>> 5850affb28450955071ed23e342faf7eff50eb2f
 }
